@@ -100,3 +100,5 @@ end
 # ['fish', 'fiiish', 'fiiiiish', 'fiiiish', 'fffish', 'ffiiiiisshh', 'fsh', 'fiiiissshhhhhh'] => "fiiiissshhhhhh"
 fishes = # ['fish', 'fiiish', 'fiiiiish', 'fiiiish', 'fffish', 'ffiiiiisshh', 'fsh', 'fiiiissshhhhhh']
 sluggish_octopus(fishes)
+dominant_octopus(fishes)
+clever_octopus(fishes)
