@@ -35,7 +35,7 @@ class Play
     SQL
     return nil unless play.length > 0
 
-    Play.new(play.first) # play is stored in an array!
+    Play.new(play.first)
   end
 
   def self.find_by_playwright(name)
@@ -106,7 +106,7 @@ class Playwright
       WHERE
         name = ?
     SQL
-    return nil unless person.length > 0 # person is stored in an array!
+    return nil unless person.length > 0
 
     Playwright.new(person.first)
   end
